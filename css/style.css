@@ -1,0 +1,56 @@
+body{
+    object-fit: cover;
+    background-color: aliceblue;
+}
+
+.logo{
+    width: 100px;
+    height: 50px
+}
+
+.navbar{
+    height: auto;
+    object-fit: cover;
+}
+
+
+.footer{
+    background-color: rgb(94, 223, 223);
+}
+
+.lato{
+    font-family: 'lato';
+    text-shadow: 30px;
+    font-style: italic;
+}
+
+.clasic-text{
+    font-family: 'antiqua book' 'new times';
+    font-size: medium;
+    text-shadow: 25px;
+    font-style: italic;
+}
+
+.parrafo{
+    font-family: 'oxygen' 'sans';
+    font-size: small;
+    text-shadow: 15px;
+}
+
+.carta{
+    font-family: 'onest' 'lato';
+    text-shadow: 12px;
+    font-size: x-large;
+}
+
+.imagen{
+    box-shadow: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: black;
+    text-shadow: 50px;
+     text-decoration: none;
+}

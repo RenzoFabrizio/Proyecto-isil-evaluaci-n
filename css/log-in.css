@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-size: 100% 000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.card-box{
+    padding: 40px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    animation: infinite;
+}
+
+.lato{
+    font-family: 'lato';
+    text-shadow: 30px;
+    font-style: italic;
+}
+
+.clasic-text{
+    font-family: 'antiqua book' 'new times';
+    font-size: medium;
+    text-shadow: 25px;
+    font-style: italic;
+}
+
+.parrafo{
+    font-family: 'oxygen' 'sans';
+    font-size: small;
+    text-shadow: 15px;
+}
+
+.container-fluid{
+     background: linear-gradient( rgb(30, 226, 226) cadetblue);
+}
+
+.link{
+    color: black;
+    text-shadow: 50px;
+    text-decoration:underline;;
+}
+
+
+.logo{
+    width: 100px;
+    height: 40px
+}
+
+.center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.bg{
+    background-color: rgb(13, 75, 96);
+    text-shadow: 15px;
+}
