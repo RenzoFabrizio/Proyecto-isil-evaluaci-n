@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-size: 100% 000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.card-box{
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    animation: infinite;
+}
+
+
+.link{
+    color: black;
+    text-shadow: 50px;
+     text-decoration: none;
+}
+
+
+.parrafo{
+    font-family: 'oxygen' 'sans';
+    font-size: small;
+    text-shadow: 15px;
+}
+
+.container-fluid{
+     background: linear-gradient( rgb(30, 226, 226) cadetblue);
+}
+
+.link{
+    color: black;
+    text-shadow: 50px;
+     text-decoration: none;
+}
+
+
+.logo{
+    width: 100px;
+    height: 40px
+}
+
+.center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.bg{
+    background-color: rgb(13, 75, 96);
+    text-shadow: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.link{
+    color: black;
+    text-shadow: 50px;
+    font-size: 12px;
+    text-decoration:underline;
+}
+
