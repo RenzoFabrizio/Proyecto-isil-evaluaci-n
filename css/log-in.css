@@ -1,18 +1,32 @@
-body{
-    height: 100vh;
+:root {
+    --primary: #0f4c5c;
+    --primary-dark: #0a3240;
+    --secondary: #8fd3ff;
+    --soft: #f4fbff;
+    --surface: #ffffff;
+    --text: #1f2b34;
+    --muted: #5f6f7a;
+    --border: #cfe8f8;
+}
+
+body {
+    min-height: 100vh;
     margin: 0;
-    background-size: 100% 000%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
+    background: linear-gradient(135deg, #eff9ff 0%, #dcefff 50%, #f8fbff 100%);
+    color: var(--text);
+    font-family: 'Oxygen', sans-serif;
 }
 
-.card-box{
-    padding: 40px;
-    border-radius: 10px;
-    background-color: cornflowerblue;
-    animation: infinite;
+.card-box {
+    width: min(100%, 520px);
+    padding: 32px;
+    border-radius: 22px;
+    background: var(--surface);
+    box-shadow: 0 12px 30px rgba(15, 76, 92, 0.12);
+    border: 1px solid rgba(15, 76, 92, 0.08);
 }
 
 .lato{
@@ -34,29 +48,79 @@ body{
     text-shadow: 15px;
 }
 
-.container-fluid{
-     background: linear-gradient( rgb(30, 226, 226) cadetblue);
+.container-fluid {
+    background: transparent;
 }
 
-.link{
-    color: black;
-    text-shadow: 50px;
-    text-decoration:underline;;
+.logo {
+    width: 110px;
+    height: auto;
 }
 
-
-.logo{
-    width: 100px;
-    height: 40px
-}
-
-.center{
-    display: flex; 
-    justify-content: center; 
+.center {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.bg{
-    background-color: rgb(13, 75, 96);
-    text-shadow: 15px;
+.bg {
+    background-color: var(--primary);
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.bg a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-control {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(15, 76, 92, 0.15);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 10px;
+    padding: 0.7rem 1.2rem;
+    font-weight: 200px;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.link {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: var(--primary-dark);
+}
+
+.parrafo,
+.form-text,
+label {
+    color: var(--muted);
+}
+
+.clasic-text {
+    font-family: 'antiqua book', 'new times', serif;
+    font-size: 1.6rem;
+    color: var(--primary-dark);
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
 }

@@ -9,23 +9,6 @@ body{
     max-width: 100%;
 }
 
-#carouselExampleCaptions .carousel-item img {
-    height: 520px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-@media (max-width: 767px) {
-    #carouselExampleCaptions .carousel-item img {
-        height: 360px;
-    }
-}
-
 .navbar{
     height: auto;
     object-fit: cover;
@@ -130,21 +113,11 @@ body{
 .carta{
     font-family: 'onest' 'lato';
     text-shadow: 12px;
-    font-size: smaller;
-}
-
-.imagen{
-    box-shadow: 15px;
-    align-items: center;
-    justify-content: center;
+    font-size: x-large;
 }
 
 .link{
     color: black;
     text-shadow: 50px;
-     text-decoration: none;
-}
-
-.carousel-text{
-    color: rgb(111, 180, 183);
+    text-decoration: none;
 }
